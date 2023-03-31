@@ -11,8 +11,8 @@ function BankAccount(customerHolder, balance = 0) {
     this.balance -= amount;
   };
 }
-// const VaibhavAccount = new BankAccount("Vaibhav", 80000);
-// console.log(VaibhavAccount);
+const VaibhavAccount = new BankAccount("Vaibhav", 80000);
+console.log(VaibhavAccount);
 // VaibhavAccount.deposit(90000);
 // VaibhavAccount.withdraw(20000);
 
@@ -20,6 +20,7 @@ function BankAccount(customerHolder, balance = 0) {
 
 const accounts = [];
 const accountform = document.querySelector("#accountform");
+const accountfor1m = document.querySelector("#accountform");
 const customername = document.querySelector("#customername");
 const balance = document.querySelector("#balance");
 

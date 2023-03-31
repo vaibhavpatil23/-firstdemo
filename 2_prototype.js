@@ -12,6 +12,7 @@ function BankAccount(customerHolder, balance = 0) {
   //   };
 }
 const VaibhavAccount = new BankAccount("Vaibhav");
+const saurabhAccount = new BankAccount("saurabh");
 const sanketAccount = new BankAccount("sanket", 2000);
 // console.log(VaibhavAccount, sanketAccount);
 
@@ -28,3 +29,4 @@ sanketAccount.deposit(3000);
 
 console.log(VaibhavAccount);
 console.log(sanketAccount);
+console.log(saurabhAccount);
